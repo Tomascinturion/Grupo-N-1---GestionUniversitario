@@ -9,7 +9,7 @@ on:
       - main
   workflow_dispatch:
 env:
-  PROJECT_DIR: SistemaGestionUniversitario/API
+  PROJECT_DIR: SistemaGestionUniversitario\API
 jobs:
   build:
     runs-on: windows-latest
@@ -67,4 +67,5 @@ jobs:
           package: .
 
           
+
 
